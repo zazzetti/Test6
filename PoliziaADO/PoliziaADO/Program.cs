@@ -15,7 +15,7 @@ namespace PoliziaADO
             string s_input;
             do
             {
-                Console.WriteLine("Cosa vuoi fare? Premi C per creare un nuovo agente, R per leggere tutti gli agenti, R_AR per leggere tutti gli agenti in una specifica area, R_AN per leggere tutti gli agenti con più di un tot di anni di servizio, ESC per uscire");
+                Console.WriteLine("Cosa vuoi fare?\n Premi C per creare un nuovo agente,\n R per leggere tutti gli agenti, \n R_AR per leggere gli agenti in una determinata area metropolitana,\n R_AN per leggere gli agenti con numero anni di servizio maggiori o uguali a input, \n ESC per uscire");
                 s_input = Console.ReadLine();
 
                 switch (s_input)
